@@ -15,9 +15,8 @@ Set myName to a string equal to your name and build myStr with myName between th
 
 
 // Only change code below this line
-const myName = "";
-const myStr = "";
+const myName = "P";
+const myStr = "My name is " + myName + " and I am well!";
 
 
 console.log(myStr)
-document.getElementById("demo").innerHTML = myStr;
