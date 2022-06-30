@@ -17,7 +17,8 @@ last name, respectively.
 
 
 // Only change code below this line
-
+var myFirstName = "P";
+var myLastName = "F";
 
 console.log(myFirstName)
 document.getElementById("demo").innerHTML = myLastName;
