@@ -22,7 +22,7 @@ a = 7;
 var b;
 
 // Only change code below this line
-
+b = a;
 
 console.log(a)
 document.getElementById("demo").innerHTML = b;

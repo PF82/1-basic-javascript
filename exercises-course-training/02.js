@@ -28,7 +28,7 @@ Look at the ourName example above if you get stuck.
 
 
 // Only change code below this line
-
+var myName
 
 console.log(myName)
 document.getElementById("demo").innerHTML = myName;
