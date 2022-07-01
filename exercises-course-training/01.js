@@ -23,7 +23,9 @@ Try creating one of each type of comment.
 
 
 // Only change code below this line
-
+// in-line comment
+/* multi-line
+comment */
 
 console.log()
 document.getElementById("demo").innerHTML = "";

@@ -33,8 +33,7 @@ Note: The indentation for SecondLine is achieved with the tab escape character, 
 
 
 // Only change code below this line
-const myStr = ""; // Change this line
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
 
 
 console.log(myStr)
-document.getElementById("demo").innerHTML = myStr;

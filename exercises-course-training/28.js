@@ -21,8 +21,7 @@ space between the two strings.
 */
 
 
-const myStr = ""; // Change this line
+const myStr = "This is the start. " + "This is the end."; // Change this line
 
 
 console.log(myStr)
-document.getElementById("demo").innerHTML = myStr;

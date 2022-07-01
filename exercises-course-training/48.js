@@ -12,7 +12,8 @@ There should be at least 5 sub-arrays in the list.
 
 
 // Only change code below this line
-
+const myList = [["oranges", 15], ["apples", 10], ["bananas", 5],
+["pears", 6], ["peaches", 7]];
 
 console.log(myList)
 document.getElementById("demo").innerHTML = myList;
