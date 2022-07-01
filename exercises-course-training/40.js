@@ -11,7 +11,7 @@ Create a nested array called myArray.
 
 
 // Only change code below this line
-const myArray = [];
+const myArray = [["P", 0], ["F", 1]];
 
 
 console.log(myArray)
