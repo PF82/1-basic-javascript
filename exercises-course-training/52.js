@@ -14,9 +14,9 @@ Inside function fun1, assign 5 to oopsGlobal without using the let or const keyw
 
 
 // Declare the myGlobal variable below this line
-
+const myGlobal = 10;
 function fun1() {
-    // Assign 5 to oopsGlobal Here
+    oopsGlobal = 5;    // Assign 5 to oopsGlobal Here
 
 }
 
