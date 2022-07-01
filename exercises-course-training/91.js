@@ -22,9 +22,12 @@ If the property is found, return that property's value. If not, return "Not Foun
 
 
 function checkObj(obj, checkProp) {
-    // Only change code below this line
-    return "Change Me!";
-    // Only change code above this line
+  // Only change code below this line
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  }
+  return "Not Found";
+  // Only change code above this line
 }
 
 
