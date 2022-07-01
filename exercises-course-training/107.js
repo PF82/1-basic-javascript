@@ -16,7 +16,7 @@ myMin, and is less than or equal to myMax, inclusive.
 
 function randomRange(myMin, myMax) {
     // Only change code below this line
-    return 0;
+    return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
     // Only change code above this line
 }
 
