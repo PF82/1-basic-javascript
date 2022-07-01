@@ -28,12 +28,14 @@ Add a bark property to myDog and set it to a dog sound, such as "woof". You may 
 
 
 const myDog = {
-    "name": "Happy Coder",
-    "legs": 4,
-    "tails": 1,
-    "friends": ["freeCodeCamp Campers"]
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
 };
 
+// Only change code below this line
+myDog.bark = "woof";
 
 console.log(myDog)
 document.getElementById("demo").innerHTML = myDog;
