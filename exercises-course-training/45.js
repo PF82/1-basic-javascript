@@ -22,7 +22,7 @@ Use the .pop() function to remove the last item from myArray and assign the popp
 const myArray = [["John", 23], ["cat", 2]];
 
 // Only change code below this line
-
+const remnovedFromMyArray = myArray.pop();
 
 console.log(myArray)
 document.getElementById("demo").innerHTML = remnovedFromMyArray;
