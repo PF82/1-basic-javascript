@@ -21,7 +21,7 @@ strictly equal to 7.
 
 // Setup
 function testStrict(val) {
-    if (val) { // Change this line
+    if (val === 7) { // Change this line
         return "Equal";
     }
     return "Not Equal";
@@ -30,5 +30,4 @@ function testStrict(val) {
 testStrict(10);
 
 
-console.log(testStrict(10))
-document.getElementById("demo").innerHTML = testStrict(10);
+console.log(testStrict(7))

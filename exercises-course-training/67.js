@@ -17,11 +17,11 @@ Add the less than operator to the indicated lines so that the return statements 
 
 
 function testLessThan(val) {
-    if (val) {  // Change this line
+    if (val < 25) {  // Change this line
         return "Under 25";
     }
 
-    if (val) {  // Change this line
+    if (val < 55) {  // Change this line
         return "Under 55";
     }
 
@@ -32,4 +32,3 @@ testLessThan(10);
 
 
 console.log(testLessThan(10))
-document.getElementById("demo").innerHTML = testLessThan(10);

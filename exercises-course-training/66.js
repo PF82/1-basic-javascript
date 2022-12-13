@@ -17,11 +17,11 @@ Add the greater than or equal to operator to the indicated lines so that the ret
 
 
 function testGreaterOrEqual(val) {
-    if (val) {  // Change this line
+    if (val >= 20) {  // Change this line
         return "20 or Over";
     }
 
-    if (val) {  // Change this line
+    if (val >= 10) {  // Change this line
         return "10 or Over";
     }
 
@@ -32,4 +32,3 @@ testGreaterOrEqual(10);
 
 
 console.log(testGreaterOrEqual(10))
-document.getElementById("demo").innerHTML = testGreaterOrEqual(10);
