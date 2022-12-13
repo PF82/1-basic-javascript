@@ -23,7 +23,6 @@ Assign the value 7 to variable a.
 var a;
 
 // Only change code below this line
-
+a = 7;
 
 console.log(a)
-document.getElementById("demo").innerHTML = a;

@@ -11,7 +11,6 @@ Define a variable a with var and initialize it to a value of 9.
 
 
 // Only change code below this line
-
+var a = 9;
 
 console.log(a)
-document.getElementById("demo").innerHTML = a;

@@ -23,8 +23,7 @@ Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) 
 
 
 // Only change code below this line
-const remainder = 0;
+const remainder = 11 % 3;
 
 
 console.log(remainder)
-document.getElementById("demo").innerHTML = remainder;

@@ -15,8 +15,7 @@ Change the 0 so the difference is 12.
 
 
 // Only change code below this line
-const difference = 45 - 0;
+const difference = 45 - 33;
 
 
 console.log(difference)
-document.getElementById("demo").innerHTML = difference;
