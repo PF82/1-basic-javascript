@@ -22,14 +22,13 @@ Add a local variable to myOutfit function to override the value of outerWear wit
 const outerWear = "T-Shirt";
 
 function myOutfit() {
-    // Only change code below this line
-
-    // Only change code above this line
-    return outerWear;
+  // Only change code below this line
+  const outerWear = 'sweater'
+  // Only change code above this line
+  return outerWear;
 }
 
 myOutfit();
 
 
 console.log(myOutfit())
-document.getElementById("demo").innerHTML = "";

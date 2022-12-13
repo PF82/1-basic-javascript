@@ -29,7 +29,7 @@ Add the equality operator to the indicated line so that the function will return
 
 // Setup
 function testEqual(val) {
-  if (val) { // Change this line
+  if (val == 12) { // Change this line
     return "Equal";
   }
   return "Not Equal";
@@ -39,4 +39,3 @@ testEqual(10);
 
 
 console.log(testEqual(10));
-document.getElementById("demo").innerHTML = testEqual(10);

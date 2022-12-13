@@ -25,7 +25,7 @@ Note: The console will still display ReferenceError: myVar is not defined, but t
 
 function myLocalScope() {
   // Only change code below this line
-
+  const myVar;
   console.log('inside myLocalScope', myVar);
 }
 myLocalScope();
@@ -34,6 +34,3 @@ myLocalScope();
 // myVar is not defined outside of myLocalScope
 console.log('outside myLocalScope', myVar);
 
-
-console.log()
-document.getElementById("demo").innerHTML = "";

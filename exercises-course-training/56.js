@@ -22,7 +22,6 @@ function processArg(num) {
 }
 
 // Only change code below this line
+processed = processArg(7);
 
-
-console.log(processArg(7))
-document.getElementById("demo").innerHTML = processed;
+console.log(processed)

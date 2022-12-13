@@ -18,7 +18,7 @@ every time the function is called.
 
 
 // Only change code below this line
-
-
-console.log(reusableFunction())
-document.getElementById("demo").innerHTML = reusableFunction();
+function reusableFunction() {
+  console.log('Hi World');
+}
+reusableFunction()

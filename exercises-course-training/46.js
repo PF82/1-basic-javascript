@@ -19,7 +19,6 @@ Use the .shift() function to remove the first item from myArray and assign the "
 const myArray = [["John", 23], ["dog", 3]];
 
 // Only change code below this line
-
+const removedFromMyArray = myArray.shift();
 
 console.log(myArray)
-document.getElementById("demo").innerHTML = removedFromMyArray;

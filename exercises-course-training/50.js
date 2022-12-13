@@ -20,7 +20,8 @@ call testFun again with different arguments and the parameters would take on the
 
 
 // Only change code below this line
+function functionWithArgs(param1, param2) {
+  console.log(param1 + param2);
+}
 
-
-console.log(functionWithArgs())
-document.getElementById("demo").innerHTML = functionWithArgs();
+functionWithArgs(5, 5)
