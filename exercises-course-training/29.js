@@ -19,8 +19,8 @@ space between the two strings. Start by assigning the first string to myStr, the
 
 
 // Only change code below this line
-let myStr;
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence."
 
 
 console.log(myStr)
-document.getElementById("demo").innerHTML = myStr;

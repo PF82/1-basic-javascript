@@ -29,9 +29,8 @@ const myVerb = "ran";
 const myAdverb = "quickly";
 
 // Only change code below this line
-const wordBlanks = ""; // Change this line
+const wordBlanks = "My " + myAdjective + " " + myNoun + " " + myVerb + " very " + myAdverb + " to his home"; // Change this line
 // Only change code above this line
 
 
 console.log(wordBlanks)
-document.getElementById("demo").innerHTML = wordBlanks;

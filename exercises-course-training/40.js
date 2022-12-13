@@ -11,8 +11,7 @@ Create a nested array called myArray.
 
 
 // Only change code below this line
-const myArray = [];
+const myArray = [["pedro", 5], ["fernandes", 9]];
 
 
 console.log(myArray)
-document.getElementById("demo").innerHTML = myArray;

@@ -21,8 +21,7 @@ Hint: Try looking at the example above if you get stuck.
 const lastName = "Lovelace";
 
 // Only change code below this line
-const secondToLastLetterOfLastName = lastName; // Change this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
 
 
 console.log(secondToLastLetterOfLastName)
-document.getElementById("demo").innerHTML = secondToLastLetterOfLastName;

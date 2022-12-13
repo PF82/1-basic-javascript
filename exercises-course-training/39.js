@@ -12,8 +12,7 @@ Modify the new array myArray so that it contains both a string and a number (in 
 
 
 // Only change code below this line
-const myArray = [];
+const myArray = ["string", 5];
 
 
 console.log(myArray)
-document.getElementById("demo").innerHTML = myArray;
