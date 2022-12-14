@@ -21,7 +21,7 @@ Hint: Try looking at the example above if you get stuck.
 const lastName = "Lovelace";
 
 // Only change code below this line
-const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+const lastLetterOfLastName = lastName; // Change this line
 
 
 console.log(lastLetterOfLastName)

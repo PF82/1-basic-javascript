@@ -13,6 +13,7 @@ If name does not correspond to any contacts then return the string No such conta
 If prop does not correspond to any valid properties of a contact found to match name then return the string No such property.
 */
 
+
 // Setup
 const contacts = [
     {
@@ -46,13 +47,13 @@ function lookUpProfile(name, prop) {
     for (let i = 0; i < contacts.length; i++) {
         if (name == contacts[i].firstName) {
             if (contacts[i].hasOwnProperty(prop)) {
-                return contacts[i][prop];
+                return contacts[i].prop;
             } else {
-                return 'No such contact.'
+                return 'No such contact';
             }
         }
     }
-    return 'No such property.'
+    return 'No such property';
     // Only change code above this line
 }
 

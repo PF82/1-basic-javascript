@@ -38,9 +38,12 @@ check if a number is positive, negative or zero. The function should return posi
 
 
 function checkSign(num) {
-  return (num > 1) ? 'positive'
-    : (num < 1) ? 'negative'
-      : 'zero';
+  return (num == 0) ? 'zero'
+    : (num > 0) ? 'positive'
+      : 'negative'
 }
 
-console.log(checkSign(0))
+checkSign(10);
+
+
+console.log(checkSign(-1))

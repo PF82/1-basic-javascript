@@ -52,6 +52,6 @@ const myPlants = [
     }
 ];
 
-const secondTree = myPlants[1].list[1];
+const secondTree = "";
 
 console.log(secondTree)

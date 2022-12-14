@@ -15,8 +15,8 @@ Set myName to a string equal to your name and build myStr with myName between th
 
 
 // Only change code below this line
-const myName = "Pedro";
-const myStr = "My name is " + myName + " and and I am well!";
+const myName = "";
+const myStr = "";
 
 
 console.log(myStr)

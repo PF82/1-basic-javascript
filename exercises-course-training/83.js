@@ -35,11 +35,10 @@ and friends is an array.
 
 
 const myDog = {
-  // Only change code below this line
-  name: 'bobby',
-  legs: 4,
-  tails: 1,
-  friends: ['neighbour','ownwer']
+    // Only change code below this line
+
+
+
 
     // Only change code above this line
 };

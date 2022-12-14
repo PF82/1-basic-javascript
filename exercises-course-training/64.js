@@ -17,7 +17,7 @@ strictly equal to 17
 
 // Setup
 function testStrictNotEqual(val) {
-    if (val !== 17) { // Change this line
+    if (val) { // Change this line
         return "Not Equal";
     }
     return "Equal";
@@ -27,4 +27,3 @@ testStrictNotEqual(10);
 
 
 console.log(testStrictNotEqual(10))
-document.getElementById("demo").innerHTML = testStrictNotEqual(10);

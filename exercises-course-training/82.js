@@ -46,15 +46,14 @@ function cc(card) {
             count = count - 1;
             break;
     }
-
     if (count > 0) {
-        return 'Bet'
+        return count + ' Bet';
     } else {
-        return 'Hold'
+        return count + ' Hold';
     }
     // Only change code above this line
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 
-console.log(cc(5))
+console.log(cc(10))

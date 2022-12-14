@@ -23,9 +23,5 @@ Try creating one of each type of comment.
 
 
 // Only change code below this line
-// This is an in-line comment.
-/* This is a
-multi-line comment */
 
-console.log()
-document.getElementById("demo").innerHTML = "";
+

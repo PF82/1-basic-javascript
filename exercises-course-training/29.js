@@ -19,8 +19,7 @@ space between the two strings. Start by assigning the first string to myStr, the
 
 
 // Only change code below this line
-let myStr = "This is the first sentence. ";
-myStr += "This is the second sentence."
+let myStr;
 
 
 console.log(myStr)

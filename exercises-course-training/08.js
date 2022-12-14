@@ -28,8 +28,9 @@ var properCamelCase;
 var TitleCaseOver;
 
 // Variable assignments
-studlyCapVar = 10;
-properCamelCase = "A String";
-titleCaseOver = 9000;
+STUDLYCAPVAR = 10;
+PRoperCAmelCAse = "A String";
+tITLEcASEoVER = 9000;
 
 
+console.log(properCamelCase)

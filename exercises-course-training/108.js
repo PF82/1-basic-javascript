@@ -12,7 +12,7 @@ Use parseInt() in the convertToInteger function so it converts the input string 
 
 
 function convertToInteger(str) {
-return parseInt(str);
+
 }
 
 convertToInteger("56");

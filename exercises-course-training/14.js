@@ -15,8 +15,7 @@ Change the 0 so that the quotient is equal to 2.
 
 
 // Only change code below this line
-const quotient = 66 / 33;
+const quotient = 66 / 0;
 
 
 console.log(quotient)
-document.getElementById("demo").innerHTML = quotient;

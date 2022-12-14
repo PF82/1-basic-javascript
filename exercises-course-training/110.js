@@ -28,10 +28,10 @@ should return either the string Equal or the string Not Equal.
 
 
 function checkEqual(a, b) {
-  return a == b ? "Equal" : "Not Equal";
+
 }
 
 checkEqual(1, 2);
 
 
-console.log(checkEqual(2, 2))
+console.log(checkEqual(1, 2))

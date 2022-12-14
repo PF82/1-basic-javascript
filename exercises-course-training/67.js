@@ -17,11 +17,11 @@ Add the less than operator to the indicated lines so that the return statements 
 
 
 function testLessThan(val) {
-    if (val < 25) {  // Change this line
+    if (val) {  // Change this line
         return "Under 25";
     }
 
-    if (val < 55) {  // Change this line
+    if (val) {  // Change this line
         return "Under 55";
     }
 

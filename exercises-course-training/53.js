@@ -25,7 +25,7 @@ Note: The console will still display ReferenceError: myVar is not defined, but t
 
 function myLocalScope() {
   // Only change code below this line
-  const myVar;
+  const myVar = "";
   console.log('inside myLocalScope', myVar);
 }
 myLocalScope();

@@ -37,13 +37,11 @@ was false otherwise.
 
 
 function trueOrFalse(wasThatTrue) {
-  if (wasThatTrue) {
-    return 'Yes, that was true'
-  }
-  return 'No, that was false'
+    // Only change code below this line
+   
 
-  // Only change code above this line
+    // Only change code above this line
 }
 
 
-console.log(trueOrFalse(false))
+console.log(trueOrFalse(true))

@@ -15,7 +15,7 @@ Change the 0 so the difference is 12.
 
 
 // Only change code below this line
-const difference = 45 - 33;
+const difference = 45 - 0;
 
 
 console.log(difference)

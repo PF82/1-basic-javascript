@@ -35,9 +35,8 @@ const testObj = {
 };
 
 // Only change code below this line
-const entreeValue = testObj["an entree"];   // Change this line
-const drinkValue = testObj["the drink"];    // Change this line
+const entreeValue = testObj;   // Change this line
+const drinkValue = testObj;    // Change this line
 
 
 console.log(entreeValue)
-console.log(drinkValue)

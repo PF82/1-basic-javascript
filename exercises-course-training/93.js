@@ -39,7 +39,7 @@ const myStorage = {
     }
 };
 
-const gloveBoxContents = myStorage.car.inside['glove box'];
+const gloveBoxContents = undefined;
 
 
 console.log(gloveBoxContents)

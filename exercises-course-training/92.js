@@ -43,27 +43,17 @@ Add a new album to the myMusic array. Add artist and title strings, release_year
 
 
 const myMusic = [
-  {
-    "artist": "Billy Joel",
-    "title": "Piano Man",
-    "release_year": 1973,
-    "formats": [
-      "CD",
-      "8T",
-      "LP"
-    ],
-    "gold": true
-  },
-  {
-    "artist": "BJ",
-    "title": "PM",
-    "release_year": 2022,
-    "formats": [
-      "DC",
-      "T8",
-      "PL"
-    ],
-  }
+    {
+        "artist": "Billy Joel",
+        "title": "Piano Man",
+        "release_year": 1973,
+        "formats": [
+            "CD",
+            "8T",
+            "LP"
+        ],
+        "gold": true
+    }
 ];
 
 

@@ -19,8 +19,6 @@ Create a function timesFive that accepts one argument, multiplies it by 5, and r
 
 
 // Only change code below this line
-function timesFive(num) {
-  return num * 5;
-}
 
-console.log(timesFive(5))
+
+console.log()

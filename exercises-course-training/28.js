@@ -21,7 +21,7 @@ space between the two strings.
 */
 
 
-const myStr = "This is the start. " + "This is the end."; // Change this line
+const myStr = ""; // Change this line
 
 
 console.log(myStr)

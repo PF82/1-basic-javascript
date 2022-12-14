@@ -31,9 +31,8 @@ Update the code so it only uses the let keyword.
 
 
 // Only change code below this line
-let catName = "Oliver";
-let catSound = "Meow!";
+var catName = "Oliver";
+var catSound = "Meow!";
 
 
 console.log(catName)
-document.getElementById("demo").innerHTML = catSound;

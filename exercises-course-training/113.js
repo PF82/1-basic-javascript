@@ -19,4 +19,3 @@ function rangeOfNumbers(startNum, endNum) {
 console.log(rangeOfNumbers(1, 5))
 console.log(rangeOfNumbers(6, 9))
 console.log(rangeOfNumbers(4, 4))
-document.getElementById("demo").innerHTML = "";

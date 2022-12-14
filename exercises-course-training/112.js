@@ -44,5 +44,4 @@ function countdown(n) {
 
 
 console.log(countdown(n))
-document.getElementById("demo").innerHTML = "";
 

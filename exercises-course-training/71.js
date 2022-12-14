@@ -14,17 +14,22 @@ Combine the if statements into a single if/else statement.
 
 
 function testElse(val) {
-  let result = "";
-  // Only change code below this line
+    let result = "";
+    // Only change code below this line
 
-  if (val > 5) {
-    result = "Bigger than 5";
-  } else {
-    result = "5 or Smaller";
-  }
+    if (val) {
+        result = "Bigger than 5";
+    }
 
-  // Only change code above this line
-  return result;
+    if (val) {
+        result = "5 or Smaller";
+    }
+
+    // Only change code above this line
+    return result;
 }
 
-console.log(testElse(6))
+testElse(4);
+
+
+console.log(testElse(4))

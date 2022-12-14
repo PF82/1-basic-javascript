@@ -22,6 +22,6 @@ function processArg(num) {
 }
 
 // Only change code below this line
-processed = processArg(7);
 
-console.log(processed)
+
+console.log(processArg(7))

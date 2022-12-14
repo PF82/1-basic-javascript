@@ -23,7 +23,7 @@ Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) 
 
 
 // Only change code below this line
-const remainder = 11 % 3;
+const remainder = 0;
 
 
 console.log(remainder)

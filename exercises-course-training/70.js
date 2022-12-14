@@ -26,11 +26,10 @@ Combine the two if statements into one statement which returns the string Outsid
 inclusive. Otherwise, return the string Inside.
 */
 
-
 function testLogicalOr(val) {
   // Only change code below this line
 
-  if (val >= 20 || val <= 10) {
+  if (val < 10 || val > 20) {
     return "Outside";
   }
 
@@ -38,4 +37,4 @@ function testLogicalOr(val) {
   return "Inside";
 }
 
-console.log(testLogicalOr(19))
+console.log(testLogicalOr(21))

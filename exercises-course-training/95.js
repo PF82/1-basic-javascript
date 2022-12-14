@@ -37,29 +37,24 @@ const recordCollection = {
     }
 };
 
-const artists = recordCollection[2468].tracks[1];
-console.log(artists);
+// const a=recordCollection[2548].albumTitle
+// console.log(a);
 
+// Only change code below this line
 function updateRecords(records, id, prop, value) {
-    //If prop isn't tracks and value isn't an empty string, update or set that album's prop to value.
-    if (prop != 'tracks' && value != "") {
-        return records[id].prop[value];
-
-        //If prop is tracks but the album doesn't have a tracks property, create an empty array and add value to it.
-    } else if (prop == 'tracks' && records[id].hasOwnProperty(prop) == false) {
-        return records[id].prop[value];
-
-        //If prop is tracks and value isn't an empty string, add value to the end of the album's existing tracks array.
-    } else if (prop == 'tracks' && value != "") {
-        return records[id].prop.push(value)
-
-        //If value is an empty string, delete the given prop property from the album.
+    if (prop != 'tracks' && value != '') {
+        records[id][prop] = value;
+    } else if (prop == 'tracks' || records[i].hasOwnProperty('tracks') == 'false') {
+        records[id][prop] = [value];
+    } else if (prop == 'tracks' && value != '') {
+        records[id][prop].push(value);
     } else if (value == '') {
-        return delete records[id].prop
-    } else {
-        return records;
+        delete records[id][prop];
     }
+    return records;
 }
 
-console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'))
+updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
+
+console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'))
