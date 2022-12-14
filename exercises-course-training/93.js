@@ -39,8 +39,7 @@ const myStorage = {
     }
 };
 
-const gloveBoxContents = undefined;
+const gloveBoxContents = myStorage.car.inside['glove box'];
 
 
 console.log(gloveBoxContents)
-document.getElementById("demo").innerHTML = "";

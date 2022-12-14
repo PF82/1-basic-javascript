@@ -29,9 +29,9 @@ const testObj = {
 };
 
 // Only change code below this line
-const hatValue = testObj;      // Change this line
-const shirtValue = testObj;    // Change this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
 
 
 console.log(hatValue)
-document.getElementById("demo").innerHTML = shirtValue;
+console.log(shirtValue)

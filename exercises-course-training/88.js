@@ -34,6 +34,6 @@ const myDog = {
     "friends": ["freeCodeCamp Campers"]
 };
 
+myDog.bark='woof';
 
 console.log(myDog)
-document.getElementById("demo").innerHTML = myDog;

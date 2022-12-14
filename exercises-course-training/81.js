@@ -23,8 +23,8 @@ Remember that undefined is a keyword, not a string.
 
 // Setup
 function abTest(a, b) {
-    // Only change code below this line
-    
+  // Only change code below this line
+  if (a < 0 || b < 0)
 
 
     // Only change code above this line
@@ -32,9 +32,12 @@ function abTest(a, b) {
     return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
 
-abTest(2, 2);
-
-
 console.log(abTest(-1, -2))
-document.getElementById("demo").innerHTML = abTest(2, 2);
 
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")
+}
+
+console.log(myFun());

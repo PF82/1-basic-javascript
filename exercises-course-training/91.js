@@ -23,10 +23,9 @@ If the property is found, return that property's value. If not, return "Not Foun
 
 function checkObj(obj, checkProp) {
     // Only change code below this line
-    return "Change Me!";
+    return obj.hasOwnProperty(checkProp);
     // Only change code above this line
 }
 
 
 console.log(checkObj({ gift: "pony", pet: "kitten", bed: "sleigh" }, "pet"))
-document.getElementById("demo").innerHTML = "";

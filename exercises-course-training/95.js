@@ -37,13 +37,29 @@ const recordCollection = {
     }
 };
 
-// Only change code below this line
+const artists = recordCollection[2468].tracks[1];
+console.log(artists);
+
 function updateRecords(records, id, prop, value) {
-    return records;
+    //If prop isn't tracks and value isn't an empty string, update or set that album's prop to value.
+    if (prop != 'tracks' && value != "") {
+        return records[id].prop[value];
+
+        //If prop is tracks but the album doesn't have a tracks property, create an empty array and add value to it.
+    } else if (prop == 'tracks' && records[id].hasOwnProperty(prop) == false) {
+        return records[id].prop[value];
+
+        //If prop is tracks and value isn't an empty string, add value to the end of the album's existing tracks array.
+    } else if (prop == 'tracks' && value != "") {
+        return records[id].prop.push(value)
+
+        //If value is an empty string, delete the given prop property from the album.
+    } else if (value == '') {
+        return delete records[id].prop
+    } else {
+        return records;
+    }
 }
 
-updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'))
 
-
-console.log()
-document.getElementById("demo").innerHTML = "";

@@ -39,7 +39,6 @@ const myDog = {
 };
 
 // Only change code below this line
-
+delete myDog.tails
 
 console.log(myDog)
-document.getElementById("demo").innerHTML = myDog;

@@ -22,8 +22,11 @@ Declare and initialize a variable total to 0. Use a for loop to add the value of
 const myArr = [2, 3, 4, 5, 6];
 
 // Only change code below this line
+let total = [];
 
+for (let i = 0; i < myArr.length; i++) {
+   total.push(myArr[i]);
+}
 
 console.log(total)
-document.getElementById("demo").innerHTML = "";
 

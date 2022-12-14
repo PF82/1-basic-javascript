@@ -49,9 +49,8 @@ const testObj = {
 };
 
 // Only change code below this line
-const playerNumber = 42;  // Change this line
-const player = testObj;   // Change this line
+const playerNumber = 16;  // Change this line
+const player = testObj[playerNumber];   // Change this line
 
 
 console.log(player)
-document.getElementById("demo").innerHTML = player;
