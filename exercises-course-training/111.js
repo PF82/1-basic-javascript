@@ -38,11 +38,9 @@ check if a number is positive, negative or zero. The function should return posi
 
 
 function checkSign(num) {
-
+  return (num > 1) ? 'positive'
+    : (num < 1) ? 'negative'
+      : 'zero';
 }
 
-checkSign(10);
-
-
-console.log(checkSign(10))
-document.getElementById("demo").innerHTML = "";
+console.log(checkSign(0))

@@ -18,11 +18,10 @@ Use parseInt() in the convertToInteger function so it converts a binary number t
 
 
 function convertToInteger(str) {
-
+return parseInt(str, 2)
 }
 
 convertToInteger("10011");
 
 
 console.log(convertToInteger("10011"))
-document.getElementById("demo").innerHTML = "";
